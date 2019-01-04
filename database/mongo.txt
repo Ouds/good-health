@@ -1,0 +1,3 @@
+﻿spark-shell --conf "spark.mongodb.input.uri=mongodb://192.168.2.61/cqbigdata.jobs?readPreference=primaryPreferred" \
+            --conf "spark.mongodb.output.uri=mongodb://192.168.2.61/mydb.test4" \
+            --packages org.mongodb.spark:mongo-spark-connector_2.10:1.1.0
